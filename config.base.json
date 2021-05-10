@@ -1,0 +1,19 @@
+{
+	"urls": {
+		"exit": "/exit",
+		"linuxPing": "/ping/(.+)",
+		"linuxReboot": "/reboot",
+		"linuxShutdown": "/shutdown"
+	},
+	"devices": [
+		{
+			"name": "change_me_1",
+			"address": "127.0.0.1"
+		},
+		{
+			"name": "change_me_2",
+			"address": "localhost"
+		}
+	],
+	"localIPAdress": "0.0.0."
+}
